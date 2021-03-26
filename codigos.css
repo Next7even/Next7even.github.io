@@ -1,0 +1,64 @@
+h1 {
+    color:rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+    padding: 0.75ren;
+    font-size: 1.5rem;
+}
+
+ul{
+    padding-left: 1rem;
+    list-style-type: none; 
+}
+
+nav ul li {
+    background-color: aquamarine;
+    color: red;
+    margin-bottom: 0.5rem;
+    padding: 0.25ren;
+}
+
+nav ul li a {
+    color: red;
+}
+
+article{
+    border: 2px solid rgb(247, 133, 3);
+    padding: 1.5rem;
+}
+
+article section h2 {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 133, 3);
+    padding: o.5rem;
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+article section p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article section {
+    width: 420px;
+    border: 1px solid rgb(247, 133, 3);
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+/*esse limita a caixa pela metade era 840 agr é 420 */
+
+article{ 
+    display: flex;
+    justify-content: space-between;
+}
+/*o de cima é como deixar um do lado do outro */
+footer p a{
+    display: inline-block;
+    padding:  0.5rem;
+    background-color: rgb(32, 114, 43);
+    color: #FFF;
+    text-decoration: none;
+        border-radius: 0.5rem;
+        background-origin:  #999 4px 2px 4px 0px;
+}
